@@ -36,6 +36,7 @@ public @Data class Aluno {
 			generator = "amigo_sequence"
 			)
 	private Long id;
+	
 	@Column(name = "primeronome", nullable = false,	length = 200)
 	private String primeiroNome;
 		
